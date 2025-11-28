@@ -15,6 +15,7 @@ header {
 
   @media (max-width: 768px) {
     height: 35rem;
+    padding: 4%;
 
   }
 
@@ -54,12 +55,17 @@ header {
     padding: 0.6rem 1.2rem;
     border-radius: 5px;
     font-size: 1.1rem;
+
+    @media (max-width: 768px) {
+      width: 10rem;
+      font-size: 1rem;
+      margin-left: 0.5rem;
+      justify-content: left;
+
+
+    }
   }
 
-  @media (max-width: 768px) {
-    width: 2rem;
-    font-size: 0.8rem;
-  }
 }
 
 .box-banner {
@@ -78,7 +84,8 @@ header {
 
     @media (max-width: 768px) {
       font-size: 3rem;
-      margin-top: -10rem;
+      align-items: center;
+
     }
   }
 
@@ -88,7 +95,6 @@ header {
 
     @media (max-width: 768px) {
       font-size: 1.5rem;
-      margin-bottom: 10rem;
     }
 
   }
@@ -97,6 +103,13 @@ header {
     background-color: #272020;
     height: 100vh;
   }
+
+  @media (max-width: 768px) {
+    height: 30vh;
+    margin-top: 5rem;
+
+  }
+
 
 }
 
@@ -133,10 +146,14 @@ header {
       flex-direction: column;
       display: block;
       justify-content: center;
-
-
-
+      height: 30vh;
+      width: 90vw;
     }
+
+  }
+
+  @media (max-width: 768px) {
+    height: 330vh;
 
   }
 }
@@ -157,6 +174,11 @@ header {
     object-fit: contain;
     margin-top: 15%;
 
+    @media (max-width: 768px) {
+      width: 100%;
+      margin-top: 0;
+    }
+
   }
 
   p {
@@ -169,6 +191,22 @@ header {
     font-size: 2rem;
     color: #D7CBCB;
 
+    @media (max-width: 768px) {
+      font-size: 1.5rem;
+      width: 80vw;
+      color: #272020;
+      padding-top: -10rem;
+      margin-left: 0;
+    }
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    display: block;
+    justify-content: center;
+    height: 50vh;
+    width: 85vw;
+    margin-bottom: 2rem;
   }
 }
 
@@ -187,6 +225,10 @@ header {
     height: 100%;
     object-fit: contain;
 
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+
   }
 
   p {
@@ -199,6 +241,21 @@ header {
     font-size: 2rem;
     color: #D7CBCB;
 
+    @media (max-width: 768px) {
+      font-size: 1.5rem;
+      color: #272020;
+      margin-left: 1rem;
+    }
+
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    display: block;
+    justify-content: center;
+    height: 50vh;
+    width: 85vw;
+    margin-bottom: 2rem;
   }
 }
 
@@ -218,6 +275,10 @@ header {
     object-fit: contain;
     height: 100%;
 
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+
   }
 
   p {
@@ -230,6 +291,21 @@ header {
     font-size: 2rem;
     color: #D7CBCB;
 
+    @media (max-width: 768px) {
+      font-size: 1.5rem;
+      color: #272020;
+      margin-left: 1rem;
+    }
+
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    display: block;
+    justify-content: center;
+    height: 50vh;
+    width: 85vw;
+    margin-bottom: 2rem;
   }
 }
 
@@ -262,6 +338,22 @@ header {
     font-size: 2rem;
     color: #D7CBCB;
 
+    @media (max-width: 768px) {
+      font-size: 1.5rem;
+      color: #272020;
+      margin-left: 1rem;
+    }
+
+
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    display: block;
+    justify-content: center;
+    height: 50vh;
+    width: 85vw;
+    margin-bottom: 2rem;
   }
 }
 
@@ -293,6 +385,22 @@ header {
     font-size: 2rem;
     color: #D7CBCB;
 
+    @media (max-width: 768px) {
+      font-size: 1.5rem;
+      color: #272020;
+      margin-left: 1rem;
+    }
+
+
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    display: block;
+    justify-content: center;
+    height: 50vh;
+    width: 85vw;
+    margin-bottom: 2rem;
   }
 }
 
@@ -324,5 +432,20 @@ header {
     font-size: 2rem;
     color: #D7CBCB;
 
+    @media (max-width: 768px) {
+      font-size: 1.5rem;
+      color: #272020;
+      margin-left: 1rem;
+    }
+
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    display: block;
+    justify-content: center;
+    height: 50vh;
+    width: 85vw;
+    margin-bottom: 2rem;
   }
 }
