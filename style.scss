@@ -1,0 +1,328 @@
+@import url("https://fonts.googleapis.com/css2?family=Chau+Philomene+One:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Chau Philomene One", sans-serif;
+}
+
+header {
+  background-image: url("./img/Banner\ \ Pomodoro.png");
+  background-repeat: no-repeat;
+  background-size: column;
+  background-position: center;
+
+  @media (max-width: 768px) {
+    height: 35rem;
+
+  }
+
+
+  padding: 1.5rem 2rem;
+  height: 100vh;
+
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+
+  .menu-icon {
+    color: white;
+    font-size: 3rem;
+
+    @media (max-width: 768px) {
+      font-size: 2.5rem;
+
+    }
+  }
+}
+
+.nav-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 25vw;
+
+  .btn {
+    background-color: #b72222;
+    color: #d7cbcb;
+    text-decoration: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 5px;
+    font-size: 1.1rem;
+  }
+
+  @media (max-width: 768px) {
+    width: 2rem;
+    font-size: 0.8rem;
+  }
+}
+
+.box-banner {
+  height: 83vh;
+  color: #d7cbcb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  padding-bottom: 3rem;
+
+
+
+  h1 {
+    font-size: 7rem;
+
+    @media (max-width: 768px) {
+      font-size: 3rem;
+      margin-top: -10rem;
+    }
+  }
+
+  p {
+    color: #fd1e1e;
+    font-size: 2.2rem;
+
+    @media (max-width: 768px) {
+      font-size: 1.5rem;
+      margin-bottom: 10rem;
+    }
+
+  }
+
+  .main {
+    background-color: #272020;
+    height: 100vh;
+  }
+
+}
+
+.Pomodoro {
+  background-color: #D7CBCB;
+  font-size: 1.3rem;
+  padding: 1.5rem;
+
+  p {
+    font-size: 1.8rem;
+
+    @media (max-width: 768px) {
+      font-size: 1.2rem;
+    }
+  }
+}
+
+.cards {
+  background-color: #272020;
+  height: 200vh;
+
+
+  .card {
+    display: flex;
+    padding: 30px;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+      display: block;
+      justify-content: center;
+
+
+
+    }
+
+  }
+}
+
+.card-1 {
+  position: relative;
+  border-right: 20vh;
+  height: 91vh;
+  width: 30%;
+  background-color: #b72222;
+  border: 20px solid #b72222;
+  border-radius: 8px;
+
+
+  img {
+    background-color: #b72222;
+    width: 100%;
+    object-fit: contain;
+    margin-top: 15%;
+
+  }
+
+  p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 55%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+    font-size: 2rem;
+    color: #D7CBCB;
+
+  }
+}
+
+.card-2 {
+  position: relative;
+  border-right: 20vh;
+  height: 91vh;
+  width: 30%;
+  background-color: #b72222;
+  border: 20px solid #b72222;
+  border-radius: 8px;
+
+  img {
+    background-color: #b72222;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+
+  }
+
+  p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 88%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+    font-size: 2rem;
+    color: #D7CBCB;
+
+  }
+}
+
+.card-3 {
+  position: relative;
+  border-right: 20vh;
+  height: 91vh;
+  width: 30%;
+  background-color: #b72222;
+  border: 20px solid #b72222;
+  border-radius: 8px;
+
+
+  img {
+    background-color: #b72222;
+    width: 100%;
+    object-fit: contain;
+    height: 100%;
+
+  }
+
+  p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 80%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+    font-size: 2rem;
+    color: #D7CBCB;
+
+  }
+}
+
+.card-4 {
+  position: relative;
+  border-right: 20vh;
+  height: 91vh;
+  width: 30%;
+  background-color: #b72222;
+  border: 20px solid #b72222;
+  border-radius: 8px;
+
+
+  img {
+    background-color: #b72222;
+    width: 100%;
+    object-fit: contain;
+    height: 100%;
+
+
+  }
+
+  p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 90%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+    font-size: 2rem;
+    color: #D7CBCB;
+
+  }
+}
+
+.card-5 {
+  position: relative;
+  border-right: 20vh;
+  height: 91vh;
+  width: 30%;
+  background-color: #b72222;
+  border: 20px solid #b72222;
+  border-radius: 8px;
+
+
+  img {
+    background-color: #b72222;
+    width: 100%;
+    object-fit: contain;
+    height: 100%;
+
+  }
+
+  p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 90%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+    font-size: 2rem;
+    color: #D7CBCB;
+
+  }
+}
+
+.card-6 {
+  position: relative;
+  border-right: 20vh;
+  height: 91vh;
+  width: 30%;
+  background-color: #b72222;
+  border: 20px solid #b72222;
+  border-radius: 8px;
+
+
+  img {
+    background-color: #b72222;
+    width: 100%;
+    object-fit: contain;
+    height: 100%;
+
+  }
+
+  p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 80%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+    font-size: 2rem;
+    color: #D7CBCB;
+
+  }
+}
